@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#click{
+    background-image:linear-gradient(rgba(0,0,0,0.5), #009688);
+    background-size: cover;
+    height: 100vh;
+}
+.btn-container{
+    color: white;
+    padding-top: 120px;
+    text-align: center;
+}
+h2{
+    font-size: 70px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+#btn{
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    width: 400px;
+    font-size: 70px;
+    font-weight: bold;
+    background-color: black;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    border: .5px solid white;
+}
+#btn:hover{
+    color: red;
+    transform: scale(2.0);
+}
